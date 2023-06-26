@@ -353,17 +353,25 @@ def gtxt():
     print("[" + color.PINK + ">" + color.RESET + "] - Ich denke an eine Frucht mit" + color.PINK, len(word), "" + color.RESET + "Buchstaben. Kannst du sie erraten? ")
 
     while True:
+        masked_word = ""
+        for letter in word:
+            if letter in guessed:
+                masked_word += letter
+            else:
+                masked_word += "_"
         guess = input("[" + color.PINK + ">" + color.RESET + "] - Gebe deine Vermutung ein: " + color.PINK)
         attempts += 1
 
         if len(guess) != 1:
             cls()
+            banner()
             print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Bitte geben Sie nur einen einzelnen Buchstaben ein.")
-            print("Fortschritt:", masked_word)
+            print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - Fortschritt:", masked_word)
             continue
 
         if guess in guessed:
             cls()
+            banner()
             print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Sie haben diesen Buchstaben bereits erraten. Versuchen Sie es erneut.")
             print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - Fortschritt:", masked_word)
             continue
@@ -372,9 +380,11 @@ def gtxt():
 
         if guess in word:
             cls()
+            banner()
             print(color.RESET + "[" + color.GREEN + ">" + color.RESET + "] - Richtig")
         else:
             cls()
+            banner()
             print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Falsch")
 
         masked_word = ""
@@ -392,7 +402,7 @@ def gtxt():
             break
 
     play_again = input(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - Nochmal spielen? (ja/nein): ")
-    if play_again.lower() == "ja":
+    if play_again.lower() == "ja" or play_again.lower() == "j":
         gtxt()
 
 def reset_all():
