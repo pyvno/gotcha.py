@@ -1,53 +1,53 @@
 # Gotcha.py
 
-**All-in-One Tool for Fun by pyvno <3**
+**All-in-One-Tool für Spaß von pyvno <3**
 
-This tool provides various functionalities for entertainment purposes.
+Dieses Tool bietet verschiedene Funktionen für Unterhaltungszwecke.
 
-## Features:
+## Funktionen:
 
-1. **Passwort Gen**:
-   - Generates passwords with customizable options such as length, quantity, and inclusion of special characters.
+1. **Passwort-Generator**:
+   - Generiert Passwörter mit anpassbaren Optionen wie Länge, Anzahl und Verwendung von Sonderzeichen.
 
 2. **KoZ (Kopf oder Zahl)**:
-   - Classic coin flip game with statistics tracking.
+   - Klassisches Münzwurfspiel mit Statistikführung.
 
 3. **Bruteforce**:
-   - Test feature that attempts to crack a word using an algorithm.
+   - Testfunktion zum "Knacken" eines eingegebenen Wortes mithilfe eines Algorithmus.
 
-4. **PC-Specs**:
-   - Displays information about the user's PC, including IP address, MAC address, username, storage, CPU cores, and RAM.
+4. **PC-Spezifikationen**:
+   - Zeigt Informationen über den PC an, wie z. B. IP-Adresse, MAC-Adresse, Benutzername, Speicher, CPU-Kerne und RAM.
 
 5. **Error Troll**:
-   - Creates a file in the autostart directory that displays a "Critical Error" message upon PC startup.
+   - Erstellt eine Datei im Autostart-Verzeichnis, die beim Starten des PCs eine "Kritische Fehlermeldung" anzeigt.
 
 6. **Flooder**:
-   - Creates an infinite number of empty folders in a user-selected directory.
+   - Erstellt unendlich viele leere Ordner in einem vom Benutzer ausgewählten Verzeichnis.
 
 7. **QR-Gen**:
-   - Generates a QR code for a selected website.
+   - Erstellt einen QR-Code für eine ausgewählte Website.
 
 8. **Guess Number**:
-   - Guesses a number between 1 and 100.
+   - Errate eine Zahl zwischen 1 und 100.
 
 9. **Guess Text**:
-   - Guesses a word.
+   - Errate ein Wort.
 
 ## Extras:
 
-- **Reset All**:
-  - Resets KoZ stats, generated passwords, troll error message, and created folders from the Flooder.
+- **Alles zurücksetzen**:
+  - Setzt KoZ-Statistiken, generierte Passwörter, Troll-Fehlermeldung und erstellte Flooder-Ordner zurück.
 
-- **Reset Passes**:
-  - Deletes generated passwords.
+- **Passwörter zurücksetzen**:
+  - Löscht generierte Passwörter.
 
-- **Reset Stats**:
-  - Deletes stats file from the KoZ game.
+- **Statistiken zurücksetzen**:
+  - Löscht die Statistikdatei des KoZ-Spiels.
 
-- **Reset Error**:
-  - Deletes the troll error file.
+- **Fehler zurücksetzen**:
+  - Löscht die Troll-Fehlerdatei.
 
-- **Reset Flooder**:
-  - Deletes the created Flooder folders.
+- **Flooder zurücksetzen**:
+  - Löscht die erstellten Flooder-Ordner.
 
-Please note that this tool is intended for fun and should be used responsibly.
+Bitte beachte, dass dieses Tool ausschließlich zum Spaß gedacht ist und verantwortungsvoll verwendet werden sollte.
