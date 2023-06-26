@@ -4,7 +4,7 @@
 
 Dieses Tool bietet verschiedene Funktionen für Unterhaltungszwecke.
 
-Der Code ist eine zusammenstellung aller meiner Code-Snippets in einem Menü
+Dieser Code ist eine Zusammenstellung verschiedener Code-Snippets, die in einem Menü organisiert sind.
 
 ## Funktionen:
 
