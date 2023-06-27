@@ -1,4 +1,4 @@
-# Gotcha.py
+# gotcha.py
 
 **All-in-One-Tool für Spaß von pyvno <3**
 
