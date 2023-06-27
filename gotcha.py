@@ -359,10 +359,16 @@ def gtxt():
                 masked_word += letter
             else:
                 masked_word += "_"
+
         guess = input("[" + color.PINK + ">" + color.RESET + "] - Gebe deine Vermutung ein: " + color.PINK)
         attempts += 1
 
-        if len(guess) != 1:
+        if guess == word:
+            cls()
+            banner()
+            print(color.RESET + "[" + color.GREEN + ">" + color.RESET + "] - Glückwunsch! Du hast das Wort " + color.PINK + word.capitalize() + color.RESET + " in " + color.PINK + f"{attempts}" + color.RESET + " Versuchen erraten!")
+            break
+        elif len(guess) != 1:
             cls()
             banner()
             print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Bitte geben Sie nur einen einzelnen Buchstaben ein.")
