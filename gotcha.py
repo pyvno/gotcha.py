@@ -337,7 +337,7 @@ def gnum():
             break
 
     play_again = input("[" + color.PINK + ">" + color.RESET + "] - Nochmal spielen? (ja/nein): ")
-    if play_again.lower() == "ja":
+    if play_again.lower() == "ja" or play_again.lower() == "j":
         gnum()
 
 def gtxt():
