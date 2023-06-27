@@ -398,6 +398,7 @@ def gtxt():
 
         if masked_word == word:
             cls()
+            banner()
             print(color.RESET + "[" + color.GREEN + ">" + color.RESET + "] - Glückwunsch! Du hast das Wort " + color.PINK + word.capitalize() + color.RESET + " in " + color.PINK + f"{attempts}" + color.RESET + " Versuchen erraten!")
             break
 
