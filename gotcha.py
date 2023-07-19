@@ -344,7 +344,7 @@ def gtxt():
     cls()
     banner()
     
-    words =  ['Bananenbieger', 'Apfel', 'Banane', 'Orange', 'Mango', 'Ananas', 'Erdbeere', 'Kirsche', 'Pfirsich', 'Birne', 'Traube', 'Zitrone', 'Himbeere', 'Blaubeere', 'Melone', 'Kiwi', 'Granatapfel', 'Avocado', 'Papaya', 'Passionsfrucht', 'Feige', 'Guave', 'Mandarine', 'Pflaume', 'Aprikose', 'Brombeere', 'Limette', 'Heidelbeere', 'Kaktusfeige', 'Grapefruit', 'Litschi', 'Holunderbeere', 'Stachelbeere', 'Johannisbeere', 'Physalis', 'Pomelo', 'Nektarine', 'Maracuja', 'Kokosnuss', 'Cranberry', 'Wassermelone']
+    words =  ['Apfel', 'Banane', 'Orange', 'Mango', 'Ananas', 'Erdbeere', 'Kirsche', 'Pfirsich', 'Birne', 'Traube', 'Zitrone', 'Himbeere', 'Blaubeere', 'Melone', 'Kiwi', 'Granatapfel', 'Avocado', 'Papaya', 'Passionsfrucht', 'Feige', 'Guave', 'Mandarine', 'Pflaume', 'Aprikose', 'Brombeere', 'Limette', 'Heidelbeere', 'Kaktusfeige', 'Grapefruit', 'Litschi', 'Holunderbeere', 'Stachelbeere', 'Johannisbeere', 'Physalis', 'Pomelo', 'Nektarine', 'Maracuja', 'Kokosnuss', 'Cranberry', 'Wassermelone']
     word = random.choice(words).lower()
     attempts = 0
     guessed = []
