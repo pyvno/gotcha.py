@@ -8,25 +8,25 @@ Dieser Code ist eine Zusammenstellung verschiedener Code-Snippets, die in einem 
 
 ## Funktionen:
 
-1. **Passwort-Generator**:
+1. **Passwort Gen**:
    - Generiert Passwörter mit anpassbaren Optionen wie Länge, Anzahl und Verwendung von Sonderzeichen.
 
-2. **KoZ (Kopf oder Zahl)**:
+2. **KoZ**:
    - Klassisches Kopf oder Zahl mit Statistiken [Auch wenn das Programm geschlossen wird!].
 
 3. **Bruteforce**:
    - Testfunktion zum "Knacken" eines eingegebenen Wortes mithilfe eines Algorithmus.
 
-4. **PC-Spezifikationen**:
+4. **PC-Specs**:
    - Zeigt Informationen über den PC an, wie z. B. IP-Adresse, MAC-Adresse, Benutzername, Speicher, CPU-Kerne und RAM.
 
-5. **Error Troll**:
+5. **Error**:
    - Erstellt eine Datei im Autostart-Verzeichnis, die beim Starten des PCs eine "Kritische Fehlermeldung" anzeigt.
 
 6. **Flooder**:
    - Erstellt unendlich viele leere Ordner in einem vom Benutzer ausgewählten Verzeichnis.
 
-7. **QR-Gen**:
+7. **QR-Code Gen**:
    - Erstellt einen QR-Code für eine ausgewählten Link.
 
 8. **Guess Number**:
