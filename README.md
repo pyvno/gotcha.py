@@ -12,7 +12,7 @@ Dieser Code ist eine Zusammenstellung verschiedener Code-Snippets, die in einem 
    - Generiert Passwörter mit anpassbaren Optionen wie Länge, Anzahl und Verwendung von Sonderzeichen.
 
 2. **KoZ (Kopf oder Zahl)**:
-   - Klassisches Münzwurfspiel mit Statistikführung.
+   - Klassisches Kopf oder Zahl mit Statistiken [Auch wenn das Programm geschlossen wird!].
 
 3. **Bruteforce**:
    - Testfunktion zum "Knacken" eines eingegebenen Wortes mithilfe eines Algorithmus.
@@ -27,13 +27,13 @@ Dieser Code ist eine Zusammenstellung verschiedener Code-Snippets, die in einem 
    - Erstellt unendlich viele leere Ordner in einem vom Benutzer ausgewählten Verzeichnis.
 
 7. **QR-Gen**:
-   - Erstellt einen QR-Code für eine ausgewählte Website.
+   - Erstellt einen QR-Code für eine ausgewählten Link.
 
 8. **Guess Number**:
    - Errate eine Zahl zwischen 1 und 100.
 
-9. **Guess Text**:
-   - Errate ein Wort.
+9. **Guess Word**:
+   - Errate eine Frucht.
 
 ## Extras:
 
