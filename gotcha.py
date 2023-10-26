@@ -371,14 +371,14 @@ def gtxt():
         elif len(guess) != 1:
             cls()
             banner()
-            print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Bitte geben Sie nur einen einzelnen Buchstaben ein.")
+            print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Bitte geben Sie entweder einen einzelnen Buchstaben oder das gesamte Wort ein.")
             print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - Fortschritt:", masked_word)
             continue
 
         if guess in guessed:
             cls()
             banner()
-            print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Sie haben diesen Buchstaben bereits erraten. Versuchen Sie es erneut.")
+            print(color.RESET + "[" + color.RED + ">" + color.RESET + "] - Sie haben diesen Buchstaben bereits erraten.")
             print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - Fortschritt:", masked_word)
             continue
 
