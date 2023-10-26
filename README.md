@@ -37,19 +37,19 @@ Dieser Code ist eine Zusammenstellung verschiedener Code-Snippets, die in einem 
 
 ## Extras:
 
-- **Alles zurücksetzen**:
+- **reset all**:
   - Setzt KoZ-Statistiken, generierte Passwörter, Troll-Fehlermeldung und erstellte Flooder-Ordner zurück.
 
-- **Passwörter zurücksetzen**:
+- **reset passes**:
   - Löscht generierte Passwörter.
 
-- **Statistiken zurücksetzen**:
+- **reset stats**:
   - Löscht die Statistikdatei des KoZ-Spiels.
 
-- **Fehler zurücksetzen**:
+- **reset error**:
   - Löscht die Troll-Fehlerdatei.
 
-- **Flooder zurücksetzen**:
+- **reset flooder**:
   - Löscht die erstellten Flooder-Ordner.
 
 Bitte beachte, dass dieses Tool ausschließlich zum Spaß gedacht ist und verantwortungsvoll verwendet werden sollte.
