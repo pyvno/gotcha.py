@@ -12,6 +12,8 @@ class color:
     PINK = '\033[95m'
     CYAN = '\033[96m'
     RESET = '\033[0m' 
+    ITALIC = '\x1B[3m'
+    BOLD = '\x1B[1m'
 
 def cls():
     os.system("cls")
@@ -228,7 +230,7 @@ def pc_specs():
     mac_num = hex(uuid.getnode()).replace('0x', '').upper()
     mac = ':'.join(mac_num[i : i + 2] for i in range(0, 11, 2))
     
-    print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - IP-Adresse     : " + color.PINK + "{}".format(local_ip))
+    print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - IP-Adresse     : " + color.PINK + "{}".format(local_ip) + color.RESET + " - " + color.ITALIC + "copied")
     print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - MAC-Adresse    : " + color.PINK + "{}".format(mac))
     print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - Benutzer       : " + color.PINK + os.getlogin())
     print(color.RESET + "[" + color.PINK + ">" + color.RESET + "] - Speicher       :" + color.PINK, "{0:.0f}".format(disk.total / 1024 ** 3), color.RESET + "GB")
